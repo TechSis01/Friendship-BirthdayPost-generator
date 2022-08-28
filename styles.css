@@ -15,7 +15,6 @@ body{
     background-color: #d81159;
     padding:5% 2%;
     color:white;
-    transition:2s ease-in;
     animation: fadeIn 3s;
     border-radius: 20px;
 }
@@ -116,6 +115,9 @@ label{
     .form input{
         width:40%;
     }
+    .display{
+        width:90%;
+    }
 }
 @media only screen and (max-width: 480px) and (min-width: 300px){
     .form p{
@@ -130,6 +132,9 @@ label{
     }
     ::placeholder{
         font-size:0.9rem;
+    }
+    .display{
+        width:90%;
     }
 }
 @media only screen and (max-width: 768px) and (min-width: 481px){
@@ -146,6 +151,9 @@ label{
     ::placeholder{
         font-size:1.0rem;
     }
+    .display{
+        width:90%;
+    }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 769px){
@@ -161,5 +169,8 @@ label{
     }
     ::placeholder{
         font-size:1.2rem;
+    }
+    .display{
+        width:90%;
     }
 }
