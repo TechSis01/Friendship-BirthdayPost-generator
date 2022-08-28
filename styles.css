@@ -1,0 +1,165 @@
+html{
+    font-size:62.5%
+}
+body{
+    margin:0;
+    padding:0;
+    font-size:1.6rem;
+    background-color: #ebf2fa;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+.form-container{
+    width:70%;
+    margin:10% auto;
+    background-color: #d81159;
+    padding:5% 2%;
+    color:white;
+    transition:2s ease-in;
+    animation: fadeIn 3s;
+    border-radius: 20px;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.form p{
+    display:flex;
+    width:70%;
+    justify-content: space-between;
+    margin:5% auto;
+    align-items: center;
+}
+.form input{
+    width:65%;
+    padding:3% 2%;
+    border-radius:5px;
+    outline:none;
+    border-color:#d81159;
+    border:none;
+    font-family: 'Noto Sans', sans-serif;
+}
+#generate-btn{
+    margin-left:15%;
+    font-family: 'Roboto', sans-serif;
+    padding:2% 2%;
+    border-radius: 5px;
+    outline:none;
+    border:none;
+    background-color: #fafafa;
+    cursor:pointer;
+    font-family: 'Noto Sans', sans-serif;
+}
+#generate-btn:hover{
+    background-color: #ebf2fa;
+}
+::placeholder{
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+    font-style: italic;
+    color:#cccccc;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing:2px;
+}
+textarea{
+    border-radius: 5px;
+    padding:1% 1%;
+    font-family: 'Noto Sans', sans-serif;
+    outline:none;
+}
+label{
+    line-height: 2;
+}
+.display{
+    width:50%;
+    margin:10% auto;
+    background-color: #d81159;
+    padding:5% 2%;
+    color:white;
+    border-radius:5px;
+    line-height: 2;
+    animation: fadeout 3s;
+}
+@keyframes fadeout {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+.new-message{
+    font-family: 'Roboto', sans-serif;
+    padding:2% 2%;
+    border-radius: 5px;
+    outline:none;
+    border:none;
+    background-color: #fafafa;
+    cursor:pointer;
+}
+
+/*=================================MEDIA SCREEN======================================*/
+@media (max-width:280px){
+    .form p{
+        width:70%;
+        font-size:1.2rem;
+    }
+    .form-container{
+        width:90%;
+    }
+    h1{
+        font-size:2.0rem;
+    }
+    ::placeholder{
+        font-size:0.9rem;
+    }
+    .form input{
+        width:40%;
+    }
+}
+@media only screen and (max-width: 480px) and (min-width: 300px){
+    .form p{
+        width:70%;
+        font-size:1.2rem;
+    }
+    .form-container{
+        width:90%;
+    }
+    h1{
+        font-size:2.0rem;
+    }
+    ::placeholder{
+        font-size:0.9rem;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 481px){
+    .form p{
+        width:70%;
+        font-size:1.4rem;
+    }
+    .form-container{
+        width:80%;
+    }
+    h1{
+        font-size:2.0rem;
+    }
+    ::placeholder{
+        font-size:1.0rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+    .form p{
+        width:70%;
+        font-size:1.6rem;
+    }
+    .form-container{
+        width:80%;
+    }
+    h1{
+        font-size:2.0rem;
+    }
+    ::placeholder{
+        font-size:1.2rem;
+    }
+}
