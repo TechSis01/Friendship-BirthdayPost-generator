@@ -117,15 +117,16 @@ function displayBirthdayMessage(){
         ${birthDate.value},${birthMonth.value} ${birthday[randomNumber]},${friendshipLength.value} ${friendshipPeriod[randomNumber]},
         . ${bestMoment.value} ${moments[randomNumber]},${thingsYouLove.value} ${loveAttributes[randomNumber]},
         ${thingsYouWish.value} ${myWishes[randomNumber]}.${celebrantsName.value},${finalMessage[randomNumber]}</p>
-        <button class="new-message" onclick = "displayForm()">Generate new message</button>
+       <button class="new-message" onclick = "displayForm()">Generate new message</button>
         </div>`
     }
     else if(gender.value === 'male' || gender.value === 'Male'){
         displayMessageContainer.innerHTML = `<div class="display"><p>${nameTagsB[randomNumber]},${openingLine[randomNumber]},${quality[randomNumber]},
         ${birthDate.value},${birthMonth.value} ${birthday[randomNumber]},${friendshipLength.value} ${friendshipPeriod[randomNumber]},
         . ${bestMoment.value} ${moments[randomNumber]},${thingsYouLove.value} ${loveAttributes[randomNumber]},
-        ${thingsYouWish.value} ${myWishes[randomNumber]}.${celebrantsName.value},${finalMessage[randomNumber]}</p
-        <button class="new-message" onclick = "displayForm()">Generate new message</button></div>`
+        ${thingsYouWish.value} ${myWishes[randomNumber]}.${celebrantsName.value},${finalMessage[randomNumber]}</p>
+        <button class="new-message" onclick = "displayForm()">Generate new message</button>  
+       </div>`
     }
     celebrantsName.value = ""
     gender.value = ""
